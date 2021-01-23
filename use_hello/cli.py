@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
-from . import helpers
+import hello
 
 
-def hello():
-    print(helpers.get_message())
+def main():
+    print(hello.core.get_hmm())
+
+if __name__ == "__main__":
+    main()
