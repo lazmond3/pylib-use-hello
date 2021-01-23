@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-# from .context import hello
+# from .context import use_hello
 import unittest
 from . import context
-hello = context.hello
+use_hello = context.use_hello
 
 
 class BasicTestSuite(unittest.TestCase):
