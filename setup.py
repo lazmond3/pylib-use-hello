@@ -22,20 +22,20 @@ def read_requirements():
 
 
 setup(
-    name='lazmodn3-pylib-hello-world',
+    name='lazmodn3-pylib-use-hello',
     version='1.0.0',
-    description='Hello world package',
+    description='using Hello',
     long_description=readme,
     author='lazmond3',
     author_email='moikilo00@gmail.com',
-    url='https://github.com/lazmond3/pylib-hello-world.git',
+    url='https://github.com/lazmond3/pylib-use-hello.git',
     install_requires=read_requirements(),
     license=license,
     entry_points={
         "console_scripts": [
-            "pylib-hello-world=hello.cli:hello"
+            "pylib-use-hello=use_hello.cli:hello"
         ]
     },
     packages=find_packages(exclude=('tests', 'docs')),
-    est_suite='tests'
+    test_suite='tests'
 )
